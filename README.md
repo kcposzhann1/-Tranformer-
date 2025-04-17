@@ -20,3 +20,9 @@
    ```bash
    git clone https://github.com/your-username/transformer-chatbot.git
    cd transformer-chatbot
+## Tips
+
+1.本项目中构建了一个简化的transformer模型，实现了相应的MultiHeadAttention、positional_encoding
+以及前反馈层，搭配相应数据集训练可以初步达到要求，但在对话的生成质量以及多样化方面均有所欠缺。
+
+2.如有需要可以将数据集替换为更大的对话数据，并调整模型参数以提高模型对话能力
